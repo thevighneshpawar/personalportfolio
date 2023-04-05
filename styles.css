@@ -326,11 +326,64 @@ a:hover{
  }
 
 /* Contact Me Section */
+ .c-logo{
+    padding: 2% 0 2% 10%;
+    font-size: 2rem;
+    color: #9c4de5;
+ }
+
+ .c-det{
+    padding: 3% 0;
+ }
+
+ .container-fluid{
+    padding: 5% 8%;
+ }
+
+.form-control {
+    border: 2px solid #7a37ec;
+    background-color: #f0e9fe;
+    height: 5rem;
+    border-radius: 1rem;
+    color:hsl(250deg 8% 45%);
+ }
 
 
 
 
  /* Footer Section */
+
+ #footer{
+    background-color: #9146f4;
+    color: #fff;
+ }
+
+ .foot-name{
+    padding:3% 5% 0;
+    text-align: center;
+ }
+
+ .copi{
+    text-align: center;
+    padding: 4%;
+    color: #3a3a3a;
+ }
+
+ .foot-txt{
+    color: #fff;
+    font-size: 1rem;
+    padding: 1%;
+    text-align: center;
+ }
+
+ .f-ico{
+    color: #fff;
+    padding: 5%;
+    font-size: 2rem;
+ }
+ .foot-name span{
+    color: #fffefe;
+ }
 
 
 /* Mobile Section */
@@ -339,11 +392,15 @@ a:hover{
         text-align: center;
     }
 
+  .icons{
+    text-align: left;
+  }
+
     .dev-img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%
+        width: 50%;
     }
 
     .dev {
@@ -370,12 +427,21 @@ a:hover{
     margin-right: auto;
    }
 
+   .lang-ico{
+    text-align: left;
+   }
+
    .car_img{
     padding: 2% 20%;
    }
    .car-txt{
     padding: 2%;
     text-align: center;
+   }
+
+   #contactme{
+    text-align: left;
+    
    }
 
 }
