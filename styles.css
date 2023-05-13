@@ -452,5 +452,10 @@ a:hover{
     text-align: left;
     
    }
+    
+   .card-cname {
+    margin-left: 2%;
+    font-size: 1rem;
+}
 
 }
